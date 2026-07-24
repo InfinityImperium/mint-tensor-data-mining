@@ -1,0 +1,12 @@
+services:
+  mint:
+    build: .
+    image: mint-env:latest
+    working_dir: /work
+    volumes:
+      - .:/work
+    stdin_open: true
+    tty: true
+    # Experiments are long; avoid accidental OOM kills on small VMs by
+    # uncommenting and sizing to the machine:
+    # mem_limit: 12g

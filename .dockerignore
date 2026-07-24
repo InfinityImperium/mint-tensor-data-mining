@@ -1,0 +1,5 @@
+# The image copies ONLY requirements.txt (code and data are volume-mounted),
+# so exclude everything else from the build context to keep builds instant
+# even with multi-GB datasets in the tree.
+*
+!requirements.txt

@@ -1,0 +1,42 @@
+# Visualizations
+abs_subseries_visualizations/
+abs_subseries_visualizations_bottom_bottom/
+subseries_visualizations/
+subseries_visualizations_bottom_bottom/
+matrix_visualizations/
+*.png
+
+# Saved factors
+*.npz
+
+# Data files
+datasets_and_dataloaders/mrt_data/
+datasets_and_dataloaders/opsd-time_series-2020-10-06/
+datasets_and_dataloaders/LargeST-main/
+datasets_and_dataloaders/electricityloaddiagrams20112014/
+datasets_and_dataloaders/scada/
+*.mat
+*.csv
+*.h5
+*.hdf
+*.xlsx
+*.pkl
+
+# Run outputs (regenerated per experiment)
+*_trial_results.txt
+electricity_exclude.txt
+*.log
+*_experiment_log_*.txt
+trial_logs/
+logs/
+
+# Internal notes
+VM_SETUP.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.ipynb_checkpoints/
+.vscode/
